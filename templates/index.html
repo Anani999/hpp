@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>House Price Predictor</h1>
+    <input placeholder="Room size (sqft) " type="number" id="room_size"/>
+    <input placeholder="Bedrooms " type="number" id="bedrooms"/>
+    <button onclick="Predict()"> Predict </button>
+    <div id="show_price"></div>
+    <script src="{{url_for('static',filename='script.js')}}"></script>
+</body>
+</html>
